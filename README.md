@@ -17,7 +17,7 @@ A template to create and work with Masterdata definitions in the BAM Data Store.
 cruft create https://github.com/BAMresearch/masterdata-generator
 ```
 
-This will prompt you with some questions to be filled in ():
+This will prompt you with some questions to be filled in:
 ```sh
   [1/9] author (Erika Mustermann): 
   [2/9] email (erika.mustermann@bam.de): 
