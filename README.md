@@ -50,7 +50,6 @@ masterdata-<name>/
 #        if Python is selected as an option
 │       ├── __init__.py
 │       ├── object_types.py
-│       ├── property_types.py
 │       ├── vocabulary_types.py
 #       if Excel is selected as an option
 │       ├── masterdata.xlsx
@@ -77,9 +76,7 @@ uv pip install -e '.[dev]'
 
 Once you have the skeleton of the Masterdata repository, you can define new classes in the corresponding file under `src/<module-name>/`.
 
-In case of Python, these are different modules for Object Types, Property Types, and Vocabularies.
-
-For Excel or RDF/XML, this is a single file named `masterdata.xlsx`/`masterdata.owl`, respectively.
+In case of Python, these are different modules for Object Types and Vocabularies. For Excel or RDF/XML, this is a single file named `masterdata.xlsx`/`masterdata.owl`, respectively. In all the cases, a dummy entity called `ExampleObjectType` is created to serve as an example.
 
 You can export from Python to the other formats using the `bam-masterdata` CLI. You can also generate Python code from Excel or RDF/XML with the same CLI. Read more in the [`bam-masterdata` documentation](https://bamresearch.github.io/bam-masterdata/).
 
