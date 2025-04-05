@@ -11,7 +11,7 @@ A template to create and work with Masterdata definitions in the BAM Data Store.
 3. After creating your new repository, you can:
     1. Open in Github Codespace
     2. Clone it locally
-4. You need to [install `cruft`](https://cruft.github.io/cruft/#creating-a-new-project).
+4. You need to [install `cruft`](https://cruft.github.io/cruft/#installation).
 5. Run the following command to create the structure of the new Masterdata project:
 ```sh
 cruft create https://github.com/BAMresearch/masterdata-generator
